@@ -9,11 +9,17 @@ The code combines digital image processing and GUI. When the program is executed
 
 # Key Functions
 Define the class RedDotSystem containing several methods that define the behaviour of GUI, and initialize using __init__. 
+
 Frame/Window setup: Tkinter to set up the frame, create buttons, and define the canvas for displaying an image.
+
 Widget features include upload image, place red dot, draw arrows, save project and a textbox for the comment, which allow image upload, placement of solid red dots, drawing of arrows, writing of comments in a text box and saving the resultant image.
+
 Digital image processing: PIL used to process digital image.
+
 Image resizing and centering: Math module for image resizing and centering on canvass using aspect ratio. 
+
 os module: For file handling.
+
 Saving project: Annotated image with comments is saved as a PNG file by clicking on save annotated file function on canvass.
 
 # Installations/Resources
